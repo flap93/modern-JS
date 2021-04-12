@@ -12,3 +12,11 @@ console.log({a: 1, b:2});   // object literals
 console.table({a: 1, b:2}); // it print the object in the console as table 
 
 console.error('this is some error'); // display our message in red as a error
+
+console.warn('this a warning');
+console.clear();
+console.time('hello');
+console.log('Hello world');
+console.log('Hello world');
+console.log('Hello world');
+console.timeEnd('hello');

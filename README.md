@@ -30,3 +30,9 @@ We can log into our console letters , number , booleans ,variables, arrays , obj
 table print our object result in the console as a table 
 
 error print our message in red as a error
+
+clear(); this cleans our console in google chrome 
+
+time & timeEnd whatever we put between this two , it will tell us how long it took to run the lines of code ;
+
+warn , it prints a warning in our console 
