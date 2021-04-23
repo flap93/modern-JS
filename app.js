@@ -120,19 +120,59 @@ console.log(typeof address);
 
 // TYPES OF CONVERSION
 
-let val;
+// let val;
 
 // number to string 
-val = String(5); // to convert a number to a string we have to wrap it in a function string 
+// val = String(5); // to convert a number to a string we have to wrap it in a function string 
 // so for legnth to work , we put this into a string function and it will count the numbers inside
 // of the parenthesis in this case 1 because there is only one 5 
 
 // OR YOU CAN USE 
 
-val = (5).toString(); // whatever we pass inside will convert into a string
+// val = (5).toString(); // whatever we pass inside will convert into a string
 
 // output
 
-console.log(val)
-console.log(typeof val)
-console.log(val.length);
+// console.log(val)
+// console.log(typeof val)
+// console.log(val.length);
+
+// string to number
+
+// val = Number('5');
+
+// console.log(val)
+// console.log(typeof val)
+// console.log(val.toFixed());
+
+
+// SIMPLE MATH
+
+const num1 = 100;
+const num2 = 50;
+
+let val;
+
+val = num1 + num2;
+val = num1 * num2;
+val = num1 - num2;
+val = num1 / num2;
+val = num1 % num2;
+
+// console.log(val);
+
+// MATH OBJECT
+
+val = Math.PI;
+val = Math.round(2.8)
+val = Math.ceil(2.4);
+val = Math.floor(2.5);
+val = Math.sqrt(64);
+val = Math.abs(-8);
+val = Math.pow(8, 2);
+val = Math.random();
+
+val = Math.floor(Math.random() * 20 + 1);
+
+
+console.log(val);
