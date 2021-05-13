@@ -74,7 +74,7 @@ console.log('true');  // booleans
 
   // NUMBER
 
-  const age = 45;
+  // const age = 45;
 
   // BOOLEAN
 
@@ -103,19 +103,19 @@ console.log('true');  // booleans
 
 // OBJECTS
 
-const address = {
-    city: 'Boston',
-    state: 'Ma'
-}
+// const address = {
+//     city: 'Boston',
+//     state: 'Ma'
+// }
 
 const today = new Date(); // this is an object too
 
 // ARRAY
 
-const hobbies = ['movies', 'music'];
+// const hobbies = ['movies', 'music'];
 
 
-console.log(typeof address);
+// console.log(typeof address);
 
 
 // TYPES OF CONVERSION
@@ -148,31 +148,86 @@ console.log(typeof address);
 
 // SIMPLE MATH
 
-const num1 = 100;
-const num2 = 50;
+// const num1 = 100;
+// const num2 = 50;
 
-let val;
+// let val;
 
-val = num1 + num2;
-val = num1 * num2;
-val = num1 - num2;
-val = num1 / num2;
-val = num1 % num2;
+// val = num1 + num2;
+// val = num1 * num2;
+// val = num1 - num2;
+// val = num1 / num2;
+// val = num1 % num2;
 
 // console.log(val);
 
 // MATH OBJECT
 
-val = Math.PI;
-val = Math.round(2.8)
-val = Math.ceil(2.4);
-val = Math.floor(2.5);
-val = Math.sqrt(64);
-val = Math.abs(-8);
-val = Math.pow(8, 2);
-val = Math.random();
+// val = Math.PI;
+// val = Math.round(2.8)
+// val = Math.ceil(2.4);
+// val = Math.floor(2.5);
+// val = Math.sqrt(64);
+// val = Math.abs(-8);
+// val = Math.pow(8, 2);
+// val = Math.random();
 
-val = Math.floor(Math.random() * 20 + 1);
+// val = Math.floor(Math.random() * 20 + 1);
+
+
+// console.log(val);
+
+
+
+// CONCATENATION  & APPEND
+
+const firstName = "Felix";
+const lastName = "Palacios";
+const age = '36'
+
+let val;
+
+val = firstName + lastName;
+
+// CONCATENATION
+
+val = firstName + '  ' + lastName;
+
+// APPEND
+
+val = 'Brad '   // IN ORDER TO GET THE SPACE BETWEEN THE 
+// NAMES YOU HAVE TO GIVE SOME SPACE AFTER THE NAME BRAD THE OUTPUT
+// WILL BE : Brad Traversy
+
+val += 'Traversy';  // += plus equal its to append 
+
+val = 'hello, my name is ' + firstName  + ' and i am ' + age;
+
+
+// ESCAPING
+
+val = 'that\'s awesome, i can\'t wait'; // escaping allow us to put 
+// display apostrophe by adding \ 
+
+
+// LENGTH
+
+val = firstName.length; // give us the number of words on the variable 
+
+// CONCAT 
+
+// a different way to do concatenation is doing this :
+
+val = firstName.concat(' ', lastName);
+
+
+
+// CHANGE CASE
+
+
+val = firstName.toUpperCase(); // everything to upper case
+val = firstName.toLowerCase(); // everything to lower case
+
 
 
 console.log(val);
