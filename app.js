@@ -183,7 +183,9 @@ const today = new Date(); // this is an object too
 
 const firstName = "Felix";
 const lastName = "Palacios";
-const age = '36'
+const age = '36';
+const str = 'hello my name  is felix';
+const tags = 'webs , comics , toys';
 
 let val;
 
@@ -227,6 +229,59 @@ val = firstName.concat(' ', lastName);
 
 val = firstName.toUpperCase(); // everything to upper case
 val = firstName.toLowerCase(); // everything to lower case
+
+val = firstName[3] // by putting the number inside of the array , the 
+// output will be the letter i starting to count from 0  of the name Felix
+
+val = firstName.indexOf('l'); // with indexof with get the index of the 
+// word felix  output = 2
+
+// CHART AT 
+
+val = firstName.charAt('2'); // whit this you can get the result of putting 
+// the number inside of the array 
+
+// GET LAST CHAR 
+
+
+val = firstName.charAt(firstName.length - 1); // wiht this formula you can get 
+// the last character 
+
+
+
+// SUBSTRING
+
+val = firstName.substring(0, 4) // grab the characters from the name felix
+// starting from 0 so the output will be : feli
+
+
+
+
+// SLICE
+
+val = firstName.slice(0, 4);
+val = firstName.slice(-3);
+
+
+
+// SPLIT
+
+val = str.split(' ');
+val = tags.split(',');
+
+
+
+// REPLACE
+
+val = str.replace('felix', 'alberto')
+
+
+
+// INCLUDES 
+
+val = str.includes('foo');
+
+
 
 
 
